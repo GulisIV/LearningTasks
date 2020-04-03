@@ -2,36 +2,25 @@
 <html lang="en-US">
 
 <head>
-    <title>Test page</title>
     <meta charset="utf-8">
-    <style>
-        .decor {
-            background-color: gray;
-            color: black;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            margin: 20px;
-            padding: 20px;
-        }
-
-        a:link {
-            background-color: transparent;
-            text-decoration: none;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="First test task and I'm trying my best">
+    <meta name="keywords" content="test, task, Gulis, IBA">
+    <title>Test page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div style="width: 100%; display: flex; flex-wrap: wrap">
-        <div class="decor" style="width: 30%;">
-            <h2 style="text-align: center;">Home</h2>
+    <div class="all">
+        
+        <nav class="navigation">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </nav>
 
-        </div>
-        <div class="decor" style="width: 30%; margin-left: 10%;">
-            <h2 style="text-align: center;">Profile</h2>
-            <a href="https://www.linkedin.com/in/ilya-gulis-647689136/" target=_blank title="Ilya's LinkedIn">About Ilya
-                Gulis</a>
-        </div>
-        <section class="decor" style="width: 100%; margin-top: 2%;">
+        <section>
             <h2>Activities</h2>
             <ul>
                 <li>Diving
@@ -43,14 +32,15 @@
                 <li>Surfing</li>
                 <li>Safari</li>
             </ul>
-
         </section>
-        <section class="decor" style="width: 100%; margin-top: 4%;">
+
+        <section>
             <h2>Pictures</h2>
             <img title="Scuba diving"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTaFCjKaiycUUNunaJdAsIXhnfhTGEJaBChtOb9_onuKqBfxJNu&usqp=CAU"
-                alt="Almost random image of ocean" style="width:275px;height:183px;border:0;">
+                alt="Almost random image of ocean" style="width:250px;border:0;">
         </section>
+
     </div>
 </body>
 
