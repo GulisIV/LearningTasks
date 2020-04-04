@@ -1,0 +1,36 @@
+table {
+    width: 100%;
+}
+
+td, th {
+    padding: 5px;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table tr:nth-child(even) {
+    background-color: gray;
+}
+
+table tr:nth-child(odd) {
+    background-color: white;
+}
+
+table th {
+    background-color: chocolate;
+}
+
+form input[type='image'] {
+    width: 50px;
+}
+
+form fieldset label {
+    display: inline-block;
+    width: 10%;
+    text-align: right;
+    padding-right: 10px;
+  }
