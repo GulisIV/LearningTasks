@@ -12,16 +12,20 @@ table, th, td {
     border-collapse: collapse;
 }
 
-table tr:nth-child(even) {
+table th:nth-child(even) {
     background-color: gray;
 }
 
-table tr:nth-child(odd) {
+table th:nth-child(odd) {
     background-color: white;
 }
 
-table th {
-    background-color: chocolate;
+table td:nth-child(even) {
+    background-color: gray;
+}
+
+table td:nth-child(odd) {
+    background-color: white;
 }
 
 form input[type='image'] {
